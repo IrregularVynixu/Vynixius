@@ -1,6 +1,4 @@
 -- This basically makes roblox unable to log your chat messages sent in-game. Meaning if you get reported for saying something bad, you won't get banned!
--- Credits: AnthonyIsntHere and ArianBlaack [THIS WAS NOT MADE BY PHANTOMS, JUST TWEAKED.]
-
 if not game:IsLoaded() then
     game.Loaded:wait()
 end
@@ -294,5 +292,5 @@ ACLWarning:Destroy()
 if OldSetting then
     StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
 end
-Notify("Athena Bypasses", "Anti Chat & Screenshot Logger Loaded!", 10)
-print(string.format("Phantoms ACL has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
+Notify("Vynixius | Bypasses", "Anti Chat & Screenshot Logger Loaded!", 10)
+print(string.format("Vynixius ACL has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
