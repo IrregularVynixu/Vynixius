@@ -20,7 +20,7 @@ local PlayerGui = Player:FindFirstChildWhichIsA("PlayerGui") do
 end
 
 local Notify = function(_Title, _Text , Time)
-    StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://12670123338", Duration = Time})
+    StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://VynixiusLogo", Duration = Time})
 end
 
 local Tween = function(Object, Time, Style, Direction, Property)
@@ -292,5 +292,5 @@ ACLWarning:Destroy()
 if OldSetting then
     StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
 end
-Notify("Vynixius | Bypasses", "Anti Chat & Screenshot Logger Loaded!", 10)
+Notify("Vynixius Bypasses", "Anti Chat & Screenshot Logger Loaded!", 10)
 print(string.format("Vynixius ACL has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
